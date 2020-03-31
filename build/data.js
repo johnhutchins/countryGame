@@ -7,4 +7,4 @@ const AllCountries_json_1 = __importDefault(require("./data/json/AllCountries.js
 class DataStore {
 }
 exports.DataStore = DataStore;
-DataStore.all = AllCountries_json_1.default;
+DataStore.countries = AllCountries_json_1.default;

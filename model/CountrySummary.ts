@@ -1,8 +1,8 @@
 export class CountrySummary {
     country: string
-    capital: string
+    city: string
     constructor(data: any) {
         this.country = data.country
-        this.capital = data.capital
+        this.city = data.city
     }
 }

@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const apiGetRandomCountry_1 = require("./api/apiGetRandomCountry");
 const app = express_1.default();
-app.use(express_1.default.static('public'));
+//app.use(express.static('public'))
 // //this needs to be fixed....
 // app.get('/', (req, res, next) => {
 //     res.json({ 'status': "You didn't mean to come here..." })
