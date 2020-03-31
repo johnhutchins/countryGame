@@ -1,10 +1,11 @@
 import { DataStore } from "../data"
 import { RequestHandler } from "express"
 import { CountrySummary } from "../model/CountrySummary"
+import { Country } from "../types";
 
-const getRandomCountry = () => {
+const getRandomCountry = (): Country => {
     const randIndex = Math.floor(Math.random() * DataStore.countries.length)
-    let obj = {
+    let obj: Country = {
         country: DataStore.countries[randIndex].country,
         city: DataStore.countries[randIndex].city
     }
@@ -15,5 +16,6 @@ const getRandomCountry = () => {
 }
 
 export const apiGetRandomCountry: RequestHandler = (req, res, next) => {
-    return res.json(new CountrySummary(getRandomCountry()))
+    const country: Country = getRandomCountry()
+    return res.json(country)
 }
