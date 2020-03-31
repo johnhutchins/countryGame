@@ -9,9 +9,6 @@ const getRandomCountry = (): Country => {
         country: DataStore.countries[randIndex].country,
         city: DataStore.countries[randIndex].city
     }
-    if (obj.city == null) {
-        obj.city = 'N/A'
-    }
     return obj
 }
 
