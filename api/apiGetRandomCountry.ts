@@ -1,6 +1,5 @@
 import { DataStore } from "../data"
 import { RequestHandler } from "express"
-import { CountrySummary } from "../model/CountrySummary"
 import { Country } from "../types";
 
 const getRandomCountry = (): Country => {
