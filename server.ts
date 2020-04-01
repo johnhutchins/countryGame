@@ -11,7 +11,9 @@ const app = express()
 //     res.json({ 'status': "You didn't mean to come here..." })
 // })
 
-app.use(cors())
+app.use(cors({
+    origin: 'http://localhost:3000/'
+}))
 
 app.get('/country', apiGetRandomCountry)
 
