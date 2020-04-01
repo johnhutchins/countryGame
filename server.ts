@@ -1,7 +1,6 @@
 import express from "express"
-import cors from "cors"
+import cors from "cors";
 import { apiGetRandomCountry } from "./api/apiGetRandomCountry"
-import path from "path"
 const app = express()
 
 app.use(cors())
