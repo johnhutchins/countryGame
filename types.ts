@@ -1,9 +1,9 @@
 export interface Country {
     country: string
     city: string | null
-    incorrectCountries?: IncorrectCountries
+    allCountries?: AllCountries
 }
 
-export interface IncorrectCountries {
+export interface AllCountries {
     countries: Array<string>
 }

@@ -3,14 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const data_1 = require("../data");
 const getRandomCountry = () => {
     const randIndex = Math.floor(Math.random() * data_1.DataStore.countries.length);
+    let countriesArr = {
+        countries: getUniqueCountries(randIndex)
+    };
     let obj = {
         country: data_1.DataStore.countries[randIndex].country,
         city: data_1.DataStore.countries[randIndex].city
     };
-    let incorrect = {
-        countries: getUniqueCountries(randIndex)
-    };
-    obj.incorrectCountries = incorrect;
+    countriesArr.countries.push(data_1.DataStore.countries[randIndex].country);
+    obj.allCountries = countriesArr;
     return obj;
 };
 const getRandomIndex = () => {
