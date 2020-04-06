@@ -28,10 +28,6 @@
         "city": "The Valley"
     },
     {
-        "country": "Antarctica",
-        "city": null
-    },
-    {
         "country": "Antigua and Barbuda",
         "city": "Saint John's"
     },
@@ -113,15 +109,11 @@
     },
     {
         "country": "Bouvet Island",
-        "city": null
+        "city": "No capital city"
     },
     {
         "country": "Brazil",
         "city": "Brasília"
-    },
-    {
-        "country": "British Indian Ocean Territory",
-        "city": null
     },
     {
         "country": "Brunei",
@@ -301,7 +293,7 @@
     },
     {
         "country": "French Southern territories",
-        "city": null
+        "city": "Saint Pierre"
     },
     {
         "country": "Gabon",
@@ -366,10 +358,6 @@
     {
         "country": "Haiti",
         "city": "Port-au-Prince"
-    },
-    {
-        "country": "Heard Island and McDonald Islands",
-        "city": null
     },
     {
         "country": "Holy See (Vatican City State)",
@@ -793,7 +781,7 @@
     },
     {
         "country": "South Georgia and the South Sandwich Islands",
-        "city": null
+        "city": "King Edward Point"
     },
     {
         "country": "South Korea",
@@ -809,7 +797,7 @@
     },
     {
         "country": "SriLanka",
-        "city": null
+        "city": "Sri Jayawardenepura Kotte"
     },
     {
         "country": "Sudan",
@@ -853,7 +841,7 @@
     },
     {
         "country": "The Democratic Republic of Congo",
-        "city": null
+        "city": "Kinshasa"
     },
     {
         "country": "Togo",
@@ -910,10 +898,6 @@
     {
         "country": "United States",
         "city": "Washington"
-    },
-    {
-        "country": "United States Minor Outlying Islands",
-        "city": null
     },
     {
         "country": "Uruguay",
