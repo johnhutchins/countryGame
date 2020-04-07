@@ -21,7 +21,7 @@ const getUniqueCountries = (num) => {
     let countryArray = new Array();
     let randomInd = getRandomIndex();
     while (countryArray.length < 3) {
-        if (num != randomInd && !countryArray.includes(countryArray[randomInd])) {
+        if (num !== randomInd && !countryArray.includes(countryArray[randomInd])) {
             countryArray.push(data_1.DataStore.countries[randomInd].country);
         }
         randomInd = getRandomIndex();
